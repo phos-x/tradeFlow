@@ -1,5 +1,3 @@
-import os
-
 # End-of-day Data
 # * Intraday Data
 # * Real-Time Updates

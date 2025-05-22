@@ -32,16 +32,13 @@ def save_to_csv(data, output_file):
     
     records = data["data"]
     
-    # Prepare CSV file
     file_exists = os.path.isfile(output_file)
     with open(output_file, mode="a", newline="") as file:
         writer = csv.writer(file)
         
-        # Write header if file is new
         if not file_exists:
-            headers = records[0].keys()  # Use keys from the first record as headers
+            headers = records[0].keys()
             writer.writerow(headers)
         
-        # Write data rows
         for record in records:
             writer.writerow(record.values())
