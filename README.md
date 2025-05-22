@@ -1,10 +1,10 @@
-# 📊 TradeData Analysis Tool
+# TradeData Analysis Tool 📊 
 
 Welcome to the **TradeData Analysis Tool**! This Python-based application allows you to fetch trading data from the [MarketStack API](https://marketstack.com/) and save it to a CSV file for further analysis. 🚀
 
 ---
 
-## 📝 Table of Contents
+## Table of Contents 📝
 - [About the Project](#about-the-project)
 - [Features](#features)
 - [Getting Started](#getting-started)
@@ -17,7 +17,7 @@ Welcome to the **TradeData Analysis Tool**! This Python-based application allows
 
 ---
 
-## 📖 About the Project
+## About the Project 📖
 
 The **TradeData Analysis Tool** is designed to simplify the process of fetching and saving trading data. It provides an interactive command-line interface to select API functions, input parameters, and retrieve data seamlessly.
 
